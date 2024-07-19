@@ -1,0 +1,78 @@
+[
+  {
+    "title": "DigiDeeds",
+    "imageSrc": "projects/project.png",
+    "description": "On going project to build a blockchain based real estate trading platform.",
+    "longDescription": "The web application for the blockchain-based real estate trading platform is designed to provide a user-friendly interface for managing real estate transactions on a blockchain. The application seamlessly integrates with the blockchain to offer functionalities such as registering properties, performing transactions, and ensuring transparency and security throughout the process. This project also contains a separate blockchain application we created using C++.",
+    "functionalities": ["Property Registration", "Property Transactions (Buying and Selling, Fractional Ownership)", "Transaction Validation", "Smart Contract Management"],
+    "skills": ["React", "Express.js", "Node.js", "Solidity"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/McManjitha/fyp_frontend.git",
+    "type": "image",
+    "images":[
+      "projects/digi_1.png",
+      "projects/digi_2.png",
+      "projects/digi_3.png",
+      "projects/digi_4.png"
+    ]
+  },
+  {
+    "title": "Logic Gate circuit Simulation Software",
+    "imageSrc": "projects/project.png",
+    "description": "Software application that allows to simulate logic gate circuits graphically.",
+    "longDescription": "This is a software solution to simulate logic gate circuit graphically. It allows the user to draw logic gate circuits on the given GUI, and the application genarates the final output of the circuit. The application is developed using C++ and python. The Graph data structure is used to store the circuit (Graph adjencylist). The GUI is created using a python library named pygame which is commonly used for developing 2D games. This is a project I developed in my second year.",
+    "functionalities": ["Before designing complicated circuits physically, a study and simulations can be done","The outputs for specific inputs can be taken easily","Drawing logic gate circuits"],
+    "skills": ["Python", "C++", "Graph data structure"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/McManjitha/Logic_Gate_sim_repo.git",
+    "type": "video",
+    "images": ["projects/logic_1.png"],
+    "video": [
+      "projects/logic_video.mp4"
+    ]
+  },
+  {
+    "title": "License Plate detection System",
+    "imageSrc": "projects/project.png",
+    "description": "A system designed using the image processing techniques to detect vehicle license plates.",
+    "longDescription": "The proposed project addresses the challenge of manually identifying vehicle license plates from a video footage. Since, the manual process is inefficient, exposed to human errors, and difficult to scale for large datasets or real-time applications, an innovative solution is needed to address these limitations. Since, we propose an automatic license plate detection and extraction application. YOLO, a state-of-the-art deep learning model, is widely used for object detection. YOLO can accurately identify them in videos despite variations in lighting, angles, and plate styles, when trained on a comprehensive dataset of license plates. Meanwhile, OpenCV, a versatile computer vision library, facilitates real-time video processing and visualization.",
+    "functionalities": ["Extract characters: Implement Optical Character Recognition (OCR) techniques to extract the actual characters from the detected license plates.", "Implement license plate detection"],
+    "skills": ["Python", "OpenCV", "ML", "CNN"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/McManjitha/LicensePlateDetection.git",
+    "type": "video",
+    "images": ["projects/license_1.png"],
+    "video": [
+      "projects/license_plate_detection.mp4"
+    ]
+  },
+  {
+    "title": "Social App",
+    "imageSrc": "projects/project.png",
+    "description": "This is a Social Media application like facebook.",
+    "longDescription": "A social media application using React and Node.js with MongoDB as the database. The final application allows users to create posts, upload images, follow other users, and view their profiles. some of the concepts used in this project are React Hooks, Context API, and Axios. ",
+    "functionalities": ["User registration and login", "Create, edit, and delete posts", "Upload images", "Follow and unfollow other users", "View user profiles", "Like and dislike posts", "Send and receive notifications"],
+    "skills": ["React", "Node.js", "Express.js", "MongoDb"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/mcmanjitha/quizApp.git",
+    "type": "image",
+    "images":[
+      "projects/social_1.png", 
+      "projects/social_2.png",
+      "projects/social_3.png"
+    ]
+  },
+  {
+    "title": "Quizz App API",
+    "imageSrc": "projects/project.png",
+    "description": "API designed for organizing and managing quizes.",
+    "longDescription": "API designed for organizing and managing quizes.",
+    "functionalities": ["Creating, Updating, Deleting Quizes"],
+    "skills": ["Spring Boot", "Java", "MySQL"],
+    "demo": "https://www.example.com",
+    "source": "https://github.com/mcmanjitha/quizApp.git",
+    "type": "image",
+    "images":["projects/project.png"]
+  }
+  
+]

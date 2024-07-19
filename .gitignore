@@ -1,0 +1,65 @@
+# Node modules
+node_modules
+
+/node_modules
+node_modules/
+
+# Build output
+
+# Dependency lock files (choose one based on your package manager)
+package-lock.json  # npm
+yarn.lock           # yarn
+pnpm-lock.yaml      # pnpm
+
+# Editor directories and files
+.vscode/*
+!**/.vscode/extensions.json  # Don't ignore extensions
+
+# IDE specific files
+.idea/
+.DS_Store
+
+# Distribution / Production build (if applicable)
+.env.production
+
+# Testing coverage
+coverage/
+
+# Local environment variables
+.env.local
+.env.*.local
+
+# Temporary files
+tmp/
+temp/
+
+# Optional: CI/CD cache directories
+.buildkite/cache/
+.circleci/cache/
+.github/workflows/*.cache
+
+# Optional: Type checking cache
+**/node_modules/.cache
+
+# Optional: Code coverage reports
+.nyc_output/
+
+# Optional: Storybook output
+.storybook/
+
+# Reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Linting cache
+.eslintcache/
+
+# Stylelint cache
+.stylelintcache/
+
+# Vite cache (if applicable)
+.cache/

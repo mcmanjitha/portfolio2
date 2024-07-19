@@ -1,0 +1,16 @@
+[
+  
+  {
+    "title": "Node",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png"
+  },
+  {
+    "title": "Spring Boot",
+    "imageSrc": "skills/spring.png"
+  }
+  
+]
